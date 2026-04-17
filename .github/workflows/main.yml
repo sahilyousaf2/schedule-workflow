@@ -1,6 +1,6 @@
 name: Schedule
 
-on: 
+on:
   schedule:
     - cron: "0 0 * * *"
 
@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - mame: Print Name
+      - name: Print Name
         run: echo "This Console By Actions"
